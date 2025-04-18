@@ -40,17 +40,17 @@ img {
     display: block;
 }
 /* header */
-
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
 .header-container {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding: 0 15px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid var(--ocean);
 }
 .header-nav {
     display: flex;
-    gap: 76px;
+    align-items: center;
 }
 .header .header-logo span {
     font-family: var(--second-family);
@@ -68,6 +68,7 @@ img {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-right: 76px;
     color: var(--iris);
 }
 .header .header-logo:hover {
@@ -93,6 +94,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
     color: var(--navy);
 }
 .header .header-list-nav .header-nav-item:hover {
