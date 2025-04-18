@@ -36,6 +36,9 @@ body {
 .header, a, ul, .footer {
     text-decoration: none;
 }
+img {
+    display: block;
+}
 /* header */
 
 .header-container {
