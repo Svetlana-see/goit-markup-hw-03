@@ -138,7 +138,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    width: 496px;
+    max-width: 496px
     color: var(--accent);
 }
 .main .solutions .ord {
@@ -149,6 +149,10 @@ img {
     letter-spacing: 0.04em;
     color: var(--accent);
     cursor: pointer;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     background: var(--iris);
 }
 .main .solutions .ord:hover {
@@ -280,6 +284,7 @@ img {
    } 
 .footer {
     background: var(--navy);
+    padding: 100px 0;
 }
 .footer .footer-list {
     font-family: "Raleway", sans-serif;
@@ -288,7 +293,8 @@ img {
     letter-spacing: 0.03em;
     line-height: 1.17;
     text-transform: uppercase;
-    
+    display: inline-block;
+    margin-bottom: 16px;
     color: #4d5ae5;
 }
 .footer .footer-list .footer-list-spa {
