@@ -130,7 +130,6 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 48px;
 }
 .section-solutions {
     padding: 188px 0;
@@ -142,6 +141,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     max-width: 496px;
+    padding-bottom: 48px;
     color: var(--accent);
 }
 .ord {
@@ -156,7 +156,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
-    background: var(--iris);
+    background-color: #4d5ae5;
 }
 .ord:hover {
     background: var(--ocean);
@@ -188,15 +188,13 @@ img {
 .strategy-list {
     width: calc((100%-3*24px)/4);
 }
-.strategy-key {
-    margin-bottom: 8px;
-}
 .main .strategy .strategy-key {
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
     color: var(--navy);
 }
 .main .strategy .strategy-text {
@@ -215,7 +213,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     color: var(--navy);
 }
 .team-designer {
@@ -224,30 +222,33 @@ img {
     justify-content: space-between;
 }
 .team-list {
-    text-align: center;
+    width: calc((100%-3*24px)/4);
     width: 264px;
     height: 380px;
     border: 1px solid var(--accent);
     border-radius: 0 0 4px 4px;
+    background-color: #FFFFFF;
 }
 .team-list-icon {
     padding-bottom: 32px;
 }
-.team .team-designer .team-list {
-    background-color: #FFFFFF;
+.container-team {
+    padding: 32px 0;
 }
 .team .team-designer .team-list-people {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    text-align: center;
     color: var(--navy);
 }     
 .team .team-designer .team-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
     color: var(--slate);
 }
 /* main our portfolio */
