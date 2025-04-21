@@ -226,7 +226,6 @@ img {
 }
 .team-list {
     width: calc((100%-3*24px)/4);
-    /* width: 264px; */
     height: 380px;
     border: 1px solid var(--accent);
     border-radius: 0 0 4px 4px;
@@ -272,7 +271,7 @@ img {
     row-gap: 48px;
 }
 .portfolio-list-l {
-    width: calc((100%-48px)/3);
+    width: calc((100% - 48px) / 3);
     border: 1px solid var(--cornflower);
     /* width: 360px; */
     height: 420px;
@@ -290,9 +289,6 @@ img {
     letter-spacing: 0.02em;
     padding-top: 32px;
     margin-bottom: 8px;
-
-
-
     padding-left: 16px;
     display: flex;
     justify-content: flex-start;
