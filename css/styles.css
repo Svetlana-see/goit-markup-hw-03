@@ -168,9 +168,9 @@ img {
 .strategy-container {
     width: 1128px;
 }
-.container-strat {
+/* .container-strat {
     position: relative;
-}
+} */
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -226,7 +226,7 @@ img {
 }
 .team-list {
     width: calc((100%-3*24px)/4);
-    width: 264px;
+    /* width: 264px; */
     height: 380px;
     border: 1px solid var(--accent);
     border-radius: 0 0 4px 4px;
@@ -274,7 +274,7 @@ img {
 .portfolio-list-l {
     width: calc((100%-48px)/3);
     border: 1px solid var(--cornflower);
-    width: 360px;
+    /* width: 360px; */
     height: 420px;
     text-align: center;
 }
