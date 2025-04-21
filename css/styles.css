@@ -135,7 +135,7 @@ img {
 .section-solutions {
     padding: 188px 0;
 }
-.main .solutions .solutions-logo {
+.solutions-logo {
     font-weight: 700; 
     font-size: 56px;
     line-height: 1.07;
@@ -157,6 +157,7 @@ img {
     border: none;
     border-radius: 4px;
     background: var(--iris);
+    /* background-color: #4d5ae5; */
 }
 .main .solutions .ord:hover {
     background: var(--ocean);
