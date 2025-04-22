@@ -173,7 +173,8 @@ img {
     white-space: nowrap;
     width: 1px;
     height: 1px;
-    overflow: hidden;
+    visibility: hidden;
+    /* overflow: hidden; */
     border: 0; 
     padding: 0;
     clip: rect(0 0 0 0);
